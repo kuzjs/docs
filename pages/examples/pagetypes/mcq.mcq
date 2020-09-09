@@ -1,0 +1,30 @@
+
+title: MCQ Example
+
+====================
+
+[question]
+p This is an example of an MCQ. What do you think of it?
+
+[a] Ok
+[b] Good
+[c] Excellent
+[d] Out of this world
+
+[answer] d
+
+[explanation]
+p It really is out of this world.
+
+[sources]
+Animal Farm
+The Forsyte Saga
+
+[links]
+Google: https://www.google.com
+Kaagazz: https://www.kaagazz.com
+
+[comment]
+p This is just an example question.
+
+

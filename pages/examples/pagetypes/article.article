@@ -1,0 +1,9 @@
+
+title: Article Example
+
+====================
+
+include default/templates/mixins
+h2 An article
+
+

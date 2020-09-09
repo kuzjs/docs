@@ -1,0 +1,79 @@
+include mixins
+
+doctype html
+html(lang="en")
+	head
+		meta(charset='utf-8')
+		meta(name="description" itemprop="description" content=page.Description())
+
+		title= page.Title()
+		meta(name="viewport" content="width=device-width, initial-scale=1")
+
+		if page.HasRelativeBase()
+			base(href=page.Base())
+		else
+			base(href=page.Site().meta.json.meta.SITE_URL)
+
+		link(rel="stylesheet", href="x/dist/css/kaagazz.css")
+
+	body
+		header
+			if page.Show("navbar")
+				div.navbar
+					ul
+						each node in page.Site().meta.json["navbar"]	
+							li
+								a(href=node.url).navbar= node.title
+			div.header
+				if page.IsPage() && page.Show("category")
+					div.category
+						- let category = page.Category()
+						p Posted in #[a(href=category.RelativeURL()).category= category.Title()]
+				div.title
+					h1= page.Title()
+				if page.IsPage() && page.Show("author")
+					div.author
+						- let author = page.Author()
+						p Written by #[a(href=author.RelativeURL())= author.Title()]
+				if page.Show("description")
+					div.description
+						p= page.Description()
+				if page.IsPage() && page.Show("tags")
+					div.tags
+						ul
+							each tag in page.Tags()
+								+TagWithCounter(tag)
+		article
+			div
+				block content
+		footer.one
+			div.categories
+				h4 Categories Index
+				ul
+					each category in page.Site().categories
+						+CategoryWithCounter(category)
+			div.tags
+				h4 Tags Index
+				ul
+					each tag in page.Site().tags
+						+TagWithCounter(tag)
+
+		footer.two
+			div.info
+				h4 More Information
+				ul
+					each node in page.Site().meta.json["info"]
+						+InfoLink(node)
+			div.social
+				h4 Social Media
+				ul
+					each node in page.Site().meta.json["social"]
+						+SocialLink(node)
+
+		footer.three
+			div
+				h5 &copy; Copyright 2020, Ankur Seth. All Rights Reserved.
+
+		script(src="x/dist/js/timeline.js")
+
+

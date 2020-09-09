@@ -1,0 +1,18 @@
+{
+	"meta": {
+		"name": "Default theme",
+		"version": "0.2"
+	},
+
+	"templates": {
+		"author": "author.pug",
+		"category": "category.pug",
+		"collection": "collection.pug",
+		"page": "page.pug",
+		"tag": "tag.pug"
+	},
+
+	"styles": {
+		"default": "default.scss"
+	}
+}
