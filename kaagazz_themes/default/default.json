@@ -12,7 +12,7 @@
 		"tag": "tag.pug"
 	},
 
-	"styles": {
-		"default": "default.scss"
-	}
+	"css": ["default.css"],
+	"js": ["default.js"],
+	"res": ["default.ttf"]
 }
