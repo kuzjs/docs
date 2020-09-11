@@ -16,6 +16,10 @@ html(lang="en")
 
 		link(rel="stylesheet", href="x/dist/css/kaagazz.css")
 
+		- let analytics = page.Site().meta.json.analytics
+		if analytics != undefined
+			| !{page.Site().GetDataFileContents(analytics)}
+
 	body
 		header
 			if page.Show("navbar")
