@@ -6,7 +6,7 @@
 
 	"analytics": "analytics.html",
 
-	"themes": ["default"],
+	"themes": ["kz_default"],
 
 	"navbar": [
 		{
