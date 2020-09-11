@@ -45,17 +45,10 @@ html(lang="en")
 		article
 			div
 				block content
+
 		footer.one
-			div.categories
-				h4 Categories Index
-				ul
-					each category in page.Site().categories
-						+CategoryWithCounter(category)
-			div.tags
-				h4 Tags Index
-				ul
-					each tag in page.Site().tags
-						+TagWithCounter(tag)
+			+CategoriesSectionFooter()
+			+TagsSectionFooter()
 
 		footer.two
 			+InformationSectionFooter()
