@@ -1,4 +1,10 @@
 
+mixin BaseURL()
+	if page.HasRelativeBase()
+		base(href=page.Base())
+	else
+		base(href=page.Site().meta.json.meta.SITE_URL)
+
 mixin HoverLinkInternal(text, url)
 	a.hover-link(href=url)
 		div.link-title= text

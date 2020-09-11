@@ -9,10 +9,7 @@ html(lang="en")
 		title= page.Title()
 		meta(name="viewport" content="width=device-width, initial-scale=1")
 
-		if page.HasRelativeBase()
-			base(href=page.Base())
-		else
-			base(href=page.Site().meta.json.meta.SITE_URL)
+		+BaseURL()
 
 		link(rel="stylesheet", href="x/dist/css/kaagazz.css")
 
