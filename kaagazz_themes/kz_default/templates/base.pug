@@ -17,31 +17,15 @@ html(lang="en")
 
 	body
 		header
-			if page.Show("navbar")
-				div.navbar
-					ul
-						each node in page.Site().meta.json["navbar"]	
-							li
-								a(href=node.url).navbar= node.title
+			+NavBar()
+
 			div.header
-				if page.IsPage() && page.Show("category")
-					div.category
-						- let category = page.Category()
-						p Posted in #[a(href=category.RelativeURL()).category= category.Title()]
-				div.title
-					h1= page.Title()
-				if page.IsPage() && page.Show("author")
-					div.author
-						- let author = page.Author()
-						p Written by #[a(href=author.RelativeURL())= author.Title()]
-				if page.Show("description")
-					div.description
-						p= page.Description()
-				if page.IsPage() && page.Show("tags")
-					div.tags
-						ul
-							each tag in page.Tags()
-								+TagWithCounter(tag)
+				+PageCategory()
+				+PageTitle()
+				+PageAuthor()
+				+PageDescription()
+				+PageTags()
+
 		article
 			div
 				block content
