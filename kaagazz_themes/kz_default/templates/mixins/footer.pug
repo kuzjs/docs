@@ -1,0 +1,16 @@
+
+mixin InformationSectionFooter()
+	div.info
+		h4 More Information
+		ul
+			each node in page.Site().meta.json["info"]
+				+InfoLink(node)
+
+mixin SocialSectionFooter()
+	div.social
+		h4 Social Media
+		ul
+			each node in page.Site().meta.json["social"]
+				+SocialLink(node)
+
+

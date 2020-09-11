@@ -58,16 +58,8 @@ html(lang="en")
 						+TagWithCounter(tag)
 
 		footer.two
-			div.info
-				h4 More Information
-				ul
-					each node in page.Site().meta.json["info"]
-						+InfoLink(node)
-			div.social
-				h4 Social Media
-				ul
-					each node in page.Site().meta.json["social"]
-						+SocialLink(node)
+			+InformationSectionFooter()
+			+SocialSectionFooter()
 
 		footer.three
 			div
