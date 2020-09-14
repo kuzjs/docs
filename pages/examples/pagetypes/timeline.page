@@ -1,7 +1,27 @@
 
 title: Timeline Example
+layout: timeline
 
 ====================
+
+[1900]
+p Some stuff happened.
+
+[1920]
+p Some more stuff happened.
+
+[1940]
+p Even more stuff happened.
+
+[1960]
+p Still more stuff happened.
+
+[1980]
+p Stuff keeps happening.
+
+[2000]
+p Finally.
+
 
 
 
