@@ -1,8 +1,19 @@
 
 title: Question Example
+layout: question
 
 ====================
 
+[question]
+p This is an example question.
 
+[answer]
+p This is an example answer.
+
+[explanation]
+p This is an example explanation.
+
+[comment]
+p This is an example comment.
 
 
