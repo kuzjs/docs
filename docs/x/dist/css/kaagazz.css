@@ -468,4 +468,26 @@ footer.three {
   text-align: center;
 }
 
+div.mcq > div.options {
+  text-align: center;
+  padding: 40px 10px;
+}
+div.mcq > div.options > div.option {
+  text-align: left;
+  display: inline-block;
+  border: 1px solid #ccc;
+  width: 320px;
+  max-width: 80%;
+  margin: 10px;
+}
+div.mcq > div.options > div.option > div {
+  display: inline-block;
+  padding: 15px 12px;
+}
+div.mcq > div.options > div.option > div.code {
+  width: 40px;
+  text-align: center;
+  background-color: #ddd;
+}
+
 /*# sourceMappingURL=kaagazz.css.map */
