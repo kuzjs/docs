@@ -403,6 +403,11 @@ article > div > div.pages > ul > li > div.page-card > div.bottom > ul > li {
   display: inline-block;
 }
 
+table tr > td {
+  border: 1px solid #aaa;
+  padding: 10px;
+}
+
 footer.one {
   background-color: #424242;
 }
