@@ -3,6 +3,30 @@ title: Flags
 
 ====================
 
-
+table
+	tr
+		th Switch
+		th Name
+		th Description
+		th Independent
+		th Major
+		th Modifier
+	each flag in page.site.app.flags
+		tr
+			td= flag.Code()
+			td= flag.FullName()
+			td= flag.Description()
+			if flag.independent
+				td Yes
+			else
+				td No
+			if flag.major
+				td Yes
+			else
+				td No
+			if flag.modifier
+				td Yes
+			else
+				td No
 
 
