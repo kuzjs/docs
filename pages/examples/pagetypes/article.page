@@ -3,7 +3,7 @@ title: Article Example
 
 ====================
 
-include kz_default/layouts/mixins
+include default/layouts/mixins
 h2 An article
 
 
