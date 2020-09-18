@@ -5,17 +5,17 @@ object_example: {name: Example}
 
 ====================
 
-h2= ipsum.n2
-p= ipsum.n40 + ipsum.n40
-h3= ipsum.n5
-p= ipsum.n50
-h4= ipsum.n5
+h2= kuz.ipsum.n2
+p= kuz.ipsum.n40 + kuz.ipsum.n40
+h3= kuz.ipsum.n5
+p= kuz.ipsum.n50
+h4= kuz.ipsum.n5
 ul
-	li= ipsum.n5
-	li= ipsum.n30
-	li= ipsum.n5
-	li= ipsum.n30
-p= ipsum.n40 + ipsum.n40
-p= ipsum.n50
+	li= kuz.ipsum.n5
+	li= kuz.ipsum.n30
+	li= kuz.ipsum.n5
+	li= kuz.ipsum.n30
+p= kuz.ipsum.n40 + kuz.ipsum.n40
+p= kuz.ipsum.n50
 
 
