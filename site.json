@@ -19,7 +19,8 @@
 		},
 		{
 			"title": "Download",
-			"url": "https://kaagazz.com/download"
+			"url": "https://kaagazz.com/download",
+			"class": "maroon"
 		},
 		{
 			"title": "GitHub",
