@@ -4,6 +4,15 @@ description: Welcome to the Homepage. This is just some dummy text I put here to
 tags: [blue, green]
 obj: {name: Example, nick: exe}
 
+[code]
+name: Saturn
+
+[json]
+name: Neptune
+
+[kuz]
+name: Mercury
+
 ====================
 
 h2 Welcome
