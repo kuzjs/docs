@@ -6,11 +6,17 @@ show_author: false
 ====================
 
 [index]
-x/
+
+author/
+category/
+tag/
+collection/
+
 docs/
 download/
 examples/
 themes/
+
 about
 contact
 privacy
