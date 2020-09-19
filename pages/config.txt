@@ -6,6 +6,7 @@ show_author: false
 ====================
 
 [index]
+x/
 docs/
 download/
 examples/
