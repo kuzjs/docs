@@ -13,6 +13,9 @@ another-name: Venus
 [json]
 name: Neptune
 
+[require]
+fs: fs
+
 [kuz]
 name: Mercury
 
