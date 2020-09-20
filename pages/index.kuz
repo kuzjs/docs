@@ -7,6 +7,9 @@ obj: {name: Example, nick: exe}
 [code]
 name: Saturn
 
+[kuz]
+another-name: Venus
+
 [json]
 name: Neptune
 
