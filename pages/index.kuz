@@ -13,7 +13,7 @@ another-name: Venus
 [json]
 name: Neptune
 
-[require]
+[reqs]
 fs: fs
 
 [kuz]
