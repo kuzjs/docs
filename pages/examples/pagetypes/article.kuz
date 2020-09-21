@@ -3,7 +3,6 @@ title: Article Example
 
 ====================
 
-include default/layouts/mixins
 h2 An article
 
 
