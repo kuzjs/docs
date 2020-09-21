@@ -1,9 +1,9 @@
 
-title: 404 Error
-description: The page was not found.
-pretty_url: false
-relative_base: false
-show_category: false
+title = 404 Error
+description = The page was not found.
+pretty_url = false
+relative_base = false
+show_category = false
 
 ====================
 

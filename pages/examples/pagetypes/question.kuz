@@ -1,6 +1,6 @@
 
-title: Question Example
-layout: question
+title = Question Example
+layout = question
 
 ====================
 

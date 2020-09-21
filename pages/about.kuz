@@ -1,7 +1,7 @@
 
-title: About
-array_example: [one, two, three]
-object_example: {name: Example}
+title = About
+array_example = [one, two, three]
+object_example = {name: Example}
 
 ====================
 

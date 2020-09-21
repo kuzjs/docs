@@ -1,7 +1,7 @@
 
-category: official
-author: ankur-seth
-show_author: false
+category = official
+author = ankur-seth
+show_author = false
 
 ====================
 
