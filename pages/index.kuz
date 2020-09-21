@@ -4,6 +4,7 @@ description = Welcome to the Homepage. This is just some dummy text I put here t
 tags = [blue, green]
 obj = {name: Example, nick: exe}
 subtitle = I can use equals.
+bad-property
 
 [code]
 name = Saturn
