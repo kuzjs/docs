@@ -1,0 +1,21 @@
+{
+	"navbar": [
+		{
+			"title": "Home",
+			"url": "https://kaagazz.com"
+		},
+		{
+			"title": "Docs",
+			"url": "https://kaagazz.com/docs"
+		},
+		{
+			"title": "Download",
+			"url": "https://kaagazz.com/download",
+			"class": "maroon"
+		},
+		{
+			"title": "GitHub",
+			"url": "https://github.com/kaagazz"
+		}
+	]
+}
