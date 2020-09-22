@@ -13,9 +13,9 @@ table
 		th Modifier
 	each flag in page.site.app.flags
 		tr
-			td= flag.Code()
-			td= flag.FullName()
-			td= flag.Description()
+			td= flag.getCode()
+			td= flag.getFullName()
+			td= flag.getDescription()
 			if flag.independent
 				td Yes
 			else
