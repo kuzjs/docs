@@ -1,6 +1,6 @@
 #!/usr/bin/node
 
-const kuz = require("./kzapp").kuz;
+const kuz = require("./kzapp");
 kuz.run();
 
 
