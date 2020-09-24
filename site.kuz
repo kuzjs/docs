@@ -6,4 +6,11 @@ SITE_REPO = https://github.com/kuzjs/docs
 analytics = analytics.html
 themes = [default]
 
+[json]
+navbar = data/json/navbar.json
+footer = data/json/footer.json
+
+[code]
+analytics = data/analytics.html
+
 
