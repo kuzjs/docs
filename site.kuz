@@ -1,0 +1,8 @@
+
+SITE_NAME = docs
+SITE_URL = https://kaagazz.com
+
+analytics = analytics.html
+themes = [default]
+
+
