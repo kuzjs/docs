@@ -3,7 +3,6 @@ SITE_NAME = docs
 SITE_URL = https://kaagazz.com
 SITE_REPO = https://github.com/kuzjs/docs
 
-analytics = analytics.html
 themes = [default]
 
 [json]
