@@ -13,6 +13,6 @@ footer = data/json/footer.json
 analytics = data/analytics.html
 
 [kuz]
-example = example.kuz
+self = site.kuz
 
 
