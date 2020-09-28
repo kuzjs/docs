@@ -1,8 +1,11 @@
 
 title = Kuz Tutorial
 
+[json]
+tutorial = tutorial.json
+
 ====================
 
-
+h2= kuz.p.jsons.tutorial.name
 
 
